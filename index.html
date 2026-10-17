@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пшик — покупки онлайн</title>
+  <meta name="description" content="Выбирайте товары и оформляйте заказ онлайн.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#">ПШИК</a>
+    <a class="cart-link" href="#cart">
+      Корзина: <span id="cart-count">0</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">ОНЛАЙН-МАГАЗИН</p>
+      <h1>Товары, которые тебе понравятся</h1>
+      <p>Выбирай любимое и заказывай в пару кликов.</p>
+      <a class="primary-button" href="#catalog">Смотреть каталог</a>
+    </section>
+
+    <section id="catalog" class="section">
+      <h2>Наши товары</h2>
+      <p class="muted">Выбери товар и добавь его в корзину.</p>
+      <div id="products" class="products"></div>
+    </section>
+
+    <section id="cart" class="section cart">
+      <h2>Твоя корзина</h2>
+      <div id="cart-items">Пока здесь пусто.</div>
+      <p class="total">Итого: <strong id="cart-total">0 ₸</strong></p>
+      <button id="checkout" class="primary-button">
+        Заказать через WhatsApp
+      </button>
+      <p class="muted small">
+        Перед оформлением заказа проверь состав и сумму покупки.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Мой магазин</p>
+    <p>Свяжитесь с нами для уточнения доставки и оплаты.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
